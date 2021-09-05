@@ -17,6 +17,8 @@ var timeIsOver = document.getElementById("timeIsOver");
 
 
 
+
+
 var totalTime = 100;
 
 
@@ -66,3 +68,40 @@ var quizQuestions = [
     correctAnswer: "(a)"
 },
      ];
+
+// MAIN FUNCTION TO START THE QUIZ //
+
+function startQuiz() {
+    
+    questionIndex = 0;
+    totalTime = 100;
+    timeRemaining.textContent = totalTime;
+    initialInput.textContent = "";
+
+    startContainer.style.display = "none";
+    quizContainer.style.display = "block";
+    timer.style.display = "block";
+    timeIsOver.style.display = "none";
+
+    var startTimer = setInterval(function() {
+        totalTime--;
+        timeRemaining.textContent = totalTime;
+        if(totalTime <= 0) {
+            clearInterval(startTimer);
+            if (questionIndex < questions.length - 1) {
+                gameOver();
+            }
+        }
+    },1000);
+
+    quizDisplay();
+    
+};
+
+function nextQuestion() {
+    questionTitle.textContent = questions[questionIndex].question;
+    choiceA.textContent = questions[questionIndex].choices[0];
+    choiceB.textContent = questions[questionIndex].choices[1];
+    choiceC.textContent = questions[questionIndex].choices[2];
+    choiceD.textContent = questions[questionIndex].choices[3];
+};

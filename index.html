@@ -28,12 +28,12 @@
     <!-- HEADER SECTION-->
     <div class="row">
       <div class="col">
-        <a>Click to see HIGH SCORES</a>
+        <a href="#" id="viewHighScore">Click to see HIGH SCORES</a>
       </div>
-      <div class="col">
-        <a>Timer</a>
+      <div id="timer" class="col">
+        <a id="timeRemaining">Timer</a>
       </div>
-      <div class="col">
+      <div id="timeIsOver" class="col">
         <a>Timer Alert</a>
       </div>
     </div>
@@ -43,20 +43,20 @@
 
     <!-- MAIN PART-->
 
-    <div class="row"> 
+    <div id="maincontainer" class="row"> 
     <div class="col-md-8 mt-5">
       <!-- QUIZ IS STARTING DISPLAY-->
-      <div class="m-2 justify-content-center">
+      <div id="start" class="m-2 justify-content-center">
         <h1 class="font-weight-bold pl-5 pr-5">Quiz with-in JavaScrip</h1>
         <p class="p-5">
           Ready for the challenge? Don't forget to keep your eye on the timer!
           Good luck!
         </p>
-        <button type="button" class="btn btn-info ml-5 align-center">Start Quiz</button>
+        <button type="button" id="start-quiz-button" class="btn btn-info ml-5 align-center">Start Quiz</button>
       </div>
 
       <!--QUIZ QUESTIONS DIV  -->
-      <div id="questionDiv" style="display: none">
+      <div id="quizContainer" style="display: none">
         <p id="questionTitle" class="pl-5 ml-2 justify-content-center"></p>
         <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
           <p><button id="btn0" class="btn btn-light"></button></p>
@@ -64,7 +64,7 @@
           <p><button id="btn2" class="btn btn-light"></button></p>
           <p><button id="btn3" class="btn btn-light"></button></p>
           <hr id="lineBreak" style="display: none" class="mt-4">
-          <p id="answerCheck" style="display: none"></p>
+          <p id="correctChoiceCheck" style="display: none"></p>
         </div>
       </div>
 

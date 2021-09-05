@@ -1,7 +1,26 @@
 // list variables here //
+var quizContainer = document.getElementById("quizContainer");
+var questionTitle = document.getElementById("questionTitle");
+var choiceA = document.getElementById("btn0");
+var choiceB = document.getElementById("btn1");
+var choiceC = document.getElementById("btn2");
+var choiceD = document.getElementById("btn3");
+var answerCheck = document.getElementById("answerCheck");
+
+var startContainer = document.getElementById("start");
+var startQuizButton = document.getElementById("start-quiz-button");
+
+var timer = document.getElementById("timer");
+var timeRemaining = document.getElementById("timeRemaining");
+var timeIsOver = document.getElementById("timeIsOver");
 
 
-// questions //
+
+
+var totalTime = 100;
+
+
+// questions in array format//
 
 var quizQuestions = [
     {

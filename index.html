@@ -1,75 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz with-in JavaScript</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
+    <!-- BOOTSTRAP HERE-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONT FAMILY PACKAGE HERE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,300;0,600;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  
 
-<body>
+  <body>
     <!-- HEADER SECTION-->
-    <div >
-        <div>
-            <a>Click to see HIGH SCORES</a>
-        </div>
-        <div>
-            <a>Timer</a>
-        </div>
-        <div>
-            <a>Timer Alert</a>
-        </div>
+    <div>
+      <div>
+        <a>Click to see HIGH SCORES</a>
+      </div>
+      <div>
+        <a>Timer</a>
+      </div>
+      <div>
+        <a>Timer Alert</a>
+      </div>
     </div>
 
     <!-- MAIN PART-->
     <main>
-        <!-- QUIZ IS STARTING DISPLAY-->
-        <div>
-            <h1>Quiz with-in JavaScrip</h1>
-            <p> Ready for the challenge? Don't forget to keep your eye on the timer! Good luck!</p>
-            <button>Start Quiz</button>
-        </div>
+      <!-- QUIZ IS STARTING DISPLAY-->
+      <div>
+        <h1>Quiz with-in JavaScrip</h1>
+        <p>
+          Ready for the challenge? Don't forget to keep your eye on the timer!
+          Good luck!
+        </p>
+        <button>Start Quiz</button>
+      </div>
 
-        <!--QUIZ QUESTIONS DIV  -->
-        <div id="questionDiv" style="display: none;">
-        <p id="questionTitle" ></p>
+      <!--QUIZ QUESTIONS DIV  -->
+      <div id="questionDiv" style="display: none">
+        <p id="questionTitle"></p>
         <div>
-            <p><button id="btn0"></button></p>
-            <p><button id="btn1"></button></p>
-            <p><button id="btn2"></button></p>
-            <p><button id="btn3"></button></p>
-            <hr id="lineBreak">
-            <p id="answerCheck"></p>
+          <p><button id="btn0"></button></p>
+          <p><button id="btn1"></button></p>
+          <p><button id="btn2"></button></p>
+          <p><button id="btn3"></button></p>
+          <hr id="lineBreak" />
+          <p id="answerCheck"></p>
         </div>
       </div>
 
-        <!-- DISPLAY SCORE-->
-          <div >
-              <div>
-                  <h2>Final Score Value</h2>
-                  <form>
-                      <p>Enter your initials</p>
-                      <button>Submit</button>
-                  </form>
-              </div>
+      <!-- DISPLAY SCORE-->
+      <div>
+        <div>
+          <h2>Final Score Value</h2>
+          <form>
+            <p>Enter your initials</p>
+            <button>Submit</button>
+          </form>
         </div>
-    
+      </div>
 
       <!-- DISPLAY HIGHSCORE-->
       <div>
-          <h2>High Scores</h2>                   
-        
+        <h2>High Scores</h2>
 
-         
-          <p>
-              <button>Main Page</button>
-              <button>Clear High Scores</button>
-          </p>
-          
+        <p>
+          <button>Main Page</button>
+          <button>Clear High Scores</button>
+        </p>
       </div>
     </main>
 
+    <!-- BOOTSTRAP BUNDLE OPTION#1-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/script.js"></script>
-</body>
+  </body>
 </html>

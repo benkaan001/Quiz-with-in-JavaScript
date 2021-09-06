@@ -1,0 +1,47 @@
+body {
+    background-color: whitesmoke; 
+}
+
+h1, 
+h2 {
+    color: #313740;
+    font-family: 'Azeret Mono', sans-serif;
+}
+
+a {
+    color: #3290A6;
+    font-family: 'Azeret Mono', sans-serif;
+}
+a:hover {
+    color: #99B8BF;
+    font-family: 'Azeret Mono', sans-serif; 
+}
+
+btn:focus, .btn:active, .btn:visited {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #378ce2;
+}
+
+#finalScore {
+    font-family: 'Azeret Mono', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Azeret Mono', sans-serif;
+}
+
+p {
+    font-family: 'Azeret Mono', sans-serif;
+}
+
+#questionTitle {
+    font-size: 25px;
+    font-family: 'Azeret Mono', sans-serif;
+}
+
+#answerCheck {
+
+    color: #44474e;
+}

@@ -30,9 +30,9 @@
                 <a href="#" id="viewHighScore">Click to see HIGH SCORES</a>
             </div>
             <div id="timer" class="col text-right">
-                <i class="far fa-clock"></i> Timer: <span id="timeRemaining">0</span>
+                <i class="far"></i> Timer⏰: <span id="timeRemaining">0</span>
             </div>
-            <div id="timeIsOver" class="col text-right" style="display: none;">Time's Up!</div>
+            <div id="timeIsOver" class="col text-right" style="display: none">Time's Up!</div>
         </div>
 
         <!--MAIN PART-->
@@ -42,7 +42,7 @@
 
                 <!--QUIZ IS STARTING DISPLAY  -->
                 <div id="start" class="m-2 justify-content-center">
-                    <h1 class="font-weight-bold pl-5 pr-5">Quiz with-in JavaScrip</h1>
+                    <h1 class="font-weight-bold">Quiz with-in JavaScrip</h1>
                     <p class="p-5"> Ready for the challenge? Don't forget to keep your eye on the timer! Good luck!</p>
                     <button type="button" id="start-quiz-button" class="btn btn-info ml-5 align-center">Start
                         Quiz</button>
@@ -50,8 +50,8 @@
 
                 <!--QUIZ QUESTIONS DIV-->
                 <div id="quizContainer" style="display: none;">
-                    <p id="questionTitle" class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold"></p>
-                    <div class="pl-5 pt-2 pb-3 m-2 justify-content-center">
+                    <p id="questionTitle" class=" justify-content-center font-weight-bold"></p>
+                    <div class="justify-content-center">
                         <p><button id="btn0" class="btn btn-dark"></button></p>
                         <p><button id="btn1" class="btn btn-dark"></button></p>
                         <p><button id="btn2" class="btn btn-dark"></button></p>
@@ -65,12 +65,12 @@
                 <div class="pl-5 ml-2 pt-5 justify-content-center font-weight-bold" id="summary" style="display: none;">
                     <div class="col-2"></div>
                     <div class="col-8 text-left">
-                        <h2 class="font-weight-bold pt-2 pb-3 m-2">Your final score is <span id="finalScore"></span> !
+                        <h2 class="font-weight-bold">Your final score is <span id="finalScore"></span> !
                         </h2>
                         <form>
                             <p class="pt-2 pb-3 m-2">Enter your initials: <input id="initialInput"
-                                    class="form-control pt-2 pb-3 mt-2" type="text">
-                                <button type="submit" id="submitInitialButton" class="btn btn-info mt-3">Submit</button>
+                                    class="form-control" type="text">
+                                <button type="submit" id="submitInitialButton" class="btn btn-info">Submit</button>
                             </p>
                         </form>
                     </div>
@@ -78,15 +78,15 @@
                 </div>
 
                 <!-- DISPLAY HIGHSCORE -->
-                <div id="highScoreSection" class="pl-5 ml-4 pt-5 justify-content-center font-weight-bold"
-                    style="display: none;">
-                    <h2 class="font-weight-bold pt-2 pb-3 mb-2">High Scores</h2>
+                <div id="highScoreSection" class="justify-content-center font-weight-bold"
+                    style="display: none">
+                    <h2 class="font-weight-bold">High Scores</h2>
 
-                    <div id="listOfHighScores" class="list-group list-group-flush pt-2 pb-3 mb-2"></div>
+                    <div id="listOfHighScores" class="list-group list-group-flush"></div>
 
                     <p>
-                        <button type="submit" class="btn btn-info mt-3 mr-3" id="goBackButton">Go Back</button>
-                        <button type="submit" class="btn btn-info mt-3" id="clearHighScoreButton">Clear High
+                        <button type="submit" class="btn btn-info " id="goBackButton">Go Back</button>
+                        <button type="submit" class="btn btn-info " id="clearHighScoreButton">Clear High
                             Scores</button>
                     </p>
 

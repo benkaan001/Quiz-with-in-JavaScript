@@ -11,7 +11,7 @@
 
 ## Purpose
 
-The purpose of this project was create an application that tested the user's knowlege on on JavaScript fundamentals through a series of questions subjected to time contstraint. 
+The purpose of this project was to create an application that tested the user's knowlege on on JavaScript fundamentals through a series of questions subjected to time contstraint. 
 
 
 ## Technologies

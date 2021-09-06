@@ -5,7 +5,8 @@
 * [Purpose](#purpose)
 * [Technologies](#technologies)
 * [Preview](#preview)
-* [Contributions](#contributions)
+* [Functionality](#functionality)
+* [Features](#features)
 * [License](#license)
 
 ## Purpose
@@ -24,11 +25,18 @@ The purpose of this project was create an application that tested the user's kno
 
 https://benkaan001.github.io/Quiz-with-in-JavaScript/
 
-![03-javascript-homework-demo](https://user-images.githubusercontent.com/88162275/131267416-daac9439-9d16-4901-880b-26aeb1fe16f1.png)
+![Screen Shot 2021-09-05 at 7 35 26 PM](https://user-images.githubusercontent.com/88162275/132146015-f7f62f42-0ad7-4f5e-bc80-855808fa238f.png)
 
-## Contributions
-* **Prompts:** For a flawless user experience, provided the user with a series of prompts for password criteria. The initial prompt gives the user the opportunity to enter a valid numeric number in the case of a typing error. 
-* **Validation:** Validated user input to ensure the user has chosen at least one of the four different character types to be included in the password. 
+
+
+## Functionality
+
+* The quiz is composed of seven multiple-choice questions. When the user clicks on the start button, a timer for 100 seconds activates. For each incorrect answer, user's time gets subtracted by five seconds. The game terminates when the user provides answers to all questions or runs out of time. At the end of the game, the user is prompted to enter initials to record the final score, which becomes accessible under the High Score Ranking link. 
+
+## Features
+
+* In an effort to provide the user with a smoother experience, bootstrap flexbox grid and Google Fonts are fully utilized throughout the application. 
+
 
 
 ## License
